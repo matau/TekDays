@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="anecon028" name="at.isong.TekEventControllerTests" tests="1" time="1.023" timestamp="2010-03-04T15:02:48">
+  <properties />
+  <testcase classname="at.isong.TekEventControllerTests" name="testSomething" time="1.021" />
+  <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+  <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+</testsuite>

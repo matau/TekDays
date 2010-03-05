@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="anecon028" id="0" name="TekEventControllerTests" package="at.isong" tests="1" time="1.023" timestamp="2010-03-04T15:02:48">
+      <properties />
+
+      <testcase classname="at.isong.TekEventControllerTests" name="testSomething" time="1.021" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="anecon028" id="1" name="TekEventTests" package="at.isong" tests="1" time="0.031" timestamp="2010-03-04T15:02:50">
+      <properties />
+
+      <testcase classname="at.isong.TekEventTests" name="testToString" time="0.029" />
+
+      <system-out><![CDATA[--Output from testToString--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testToString--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="anecon028" id="2" name="TekUserControllerTests" package="at.isong" tests="1" time="0.017" timestamp="2010-03-04T15:02:50">
+      <properties />
+
+      <testcase classname="at.isong.TekUserControllerTests" name="testSomething" time="0.017" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="anecon028" id="3" name="TekUserTests" package="at.isong" tests="1" time="0.013" timestamp="2010-03-04T15:02:50">
+      <properties />
+
+      <testcase classname="at.isong.TekUserTests" name="testSomething" time="0.013" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

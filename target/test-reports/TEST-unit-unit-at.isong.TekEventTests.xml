@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="anecon028" name="at.isong.TekEventTests" tests="1" time="0.031" timestamp="2010-03-04T15:02:50">
+  <properties />
+  <testcase classname="at.isong.TekEventTests" name="testToString" time="0.029" />
+  <system-out><![CDATA[--Output from testToString--
+]]></system-out>
+  <system-err><![CDATA[--Output from testToString--
+]]></system-err>
+</testsuite>
