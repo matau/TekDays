@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="anecon028" name="at.isong.TekUserControllerTests" tests="1" time="0.017" timestamp="2010-03-04T15:02:50">
-  <properties />
-  <testcase classname="at.isong.TekUserControllerTests" name="testSomething" time="0.017" />
-  <system-out><![CDATA[--Output from testSomething--
-]]></system-out>
-  <system-err><![CDATA[--Output from testSomething--
-]]></system-err>
-</testsuite>
