@@ -74,7 +74,14 @@
                                     <g:select name="event.id" from="${at.isong.TekEvent.list()}" optionKey="id" value="${taskInstance?.event?.id}"  />
                                 </td>
                             </tr>
-                        
+                        	<tr class="prop">
+								<td valign="top" class="name">
+									<lable for="completed">Completed:</lable>
+								</td>
+								<td valign="top">
+									<g:checkBox name="completed" value="${taskInstance?.completed}"/>
+								</td>
+							</tr>
                         </tbody>
                     </table>
                 </div>

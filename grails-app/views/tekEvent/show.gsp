@@ -77,7 +77,7 @@
                             <td valign="top" style="text-align: left;" class="value">
                                 <ul>
                                 <g:each in="${tekEventInstance.tasks}" var="t">
-                                    <li><g:link controller="task" action="show" id="${t.id}">${t?.encodeAsHTML()}</g:link></li>
+                                    <li><g:link controller="task" action="show" id="${t.id}">${t?.title?.encodeAsHTML()}</g:link></li>
                                 </g:each>
                                 </ul>
                             </td>
@@ -85,16 +85,13 @@
                         </tr>
                     
                         <tr class="prop">
-                            <td valign="top" class="name"><g:message code="tekEvent.messages.label" default="Messages" /></td>
+                            <td valign="top" class="name">Messages:</td>
                             
                             <td valign="top" style="text-align: left;" class="value">
-                                <ul>
-                                <g:each in="${tekEventInstance.messages}" var="m">
-                                    <li><g:link controller="message" action="show" id="${m.id}">${m?.encodeAsHTML()}</g:link></li>
-                                </g:each>
-                                </ul>
+                                <g:link controller="message" action="list" id="${tekEventInstance.id}">
+									View Messages
+								</g:link>
                             </td>
-                            
                         </tr>
 
                         <tr class="prop">
@@ -125,7 +122,6 @@
                             <td valign="top" class="value">${fieldValue(bean: tekEventInstance, field: "responders")}</td>
                             
                         </tr>
-                    
                     </tbody>
                 </table>
             </div>

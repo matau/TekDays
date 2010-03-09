@@ -19,8 +19,8 @@ environments {
 	}
 	test {
 		dataSource {
-			dbCreate = "update"
-			url = "jdbc:hsqldb:mem:testDb"
+			dbCreate = "create-drop"
+			url = "jdbc:mysql://localhost:3306/tekdays_test"
 		}
 	}
 	production {
