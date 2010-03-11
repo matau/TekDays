@@ -90,6 +90,28 @@
                                 </td>
                             </tr>
                         
+							<tr class="prop" >
+								<td valign="top" class="name" >
+									<label for="twitterId" >TwitterId / Nickname:</label>
+								</td>
+								<td valign="top" >
+									<input type="text"
+										id="twitterId"
+										name="twitterId"
+										value="${fieldValue(bean:tekEventInstance,field:'twitterId')}" />
+								</td>
+							</tr>
+							<tr class="prop" >
+								<td valign="top" class="name" >
+									<label for="twitterPassword" >Twitter Password:</label>
+								</td>
+								<td valign="top" >
+									<input type="password"
+										id="twitterPassword"
+										name="twitterPassword"
+										value="${fieldValue(bean:tekEventInstance,field:'twitterPassword')}" />
+								</td>
+							</tr>	
                         </tbody>
                     </table>
                 </div>

@@ -100,4 +100,18 @@ class TekEventController {
             redirect(action: "list")
         }
     }
+
+	def search = {
+		if (params.query){
+			def events = TekEvent.search(params.query).results
+			[events:events]
+		}
+	}
+
+	def volunteer = {
+		def event = TekEvent.get(params.id)
+		event.addToVolunteers(session.user)
+		event.save()
+		render "Thank you for Volunteering"
+	}
 }

@@ -9,6 +9,11 @@ class TekEvent {
 	Date endDate
 	String description
 	
+	String twitterId
+	String twitterPassword
+	
+	static searchable = true
+	
 	static hasMany = [volunteers : TekUser,
 		responders : String, 
 		sponsorships: Sponsorship,
@@ -30,6 +35,8 @@ class TekEvent {
 		sponsorships(nullable:true)
 		tasks(nullable:true)
 		messages(nullable:true)
+		twitterId(nullable:true)
+		twitterPassword(nullable:true)
 	}
 
 }

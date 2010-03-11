@@ -9,12 +9,12 @@ class TaskService {
 			return
 		}
 		
-		tekEvent.addToTasks new Task(title:'Identify potential venues')
-		tekEvent.addToTasks new Task(title:'Get price/availability of venues')
-		tekEvent.addToTasks new Task(title:'Compile potential sponsor list')
-		tekEvent.addToTasks new Task(title:'Design promotional materials')
-		tekEvent.addToTasks new Task(title:'Compile potential advertising avenues')
-		tekEvent.addToTasks new Task(title:'Locate swag provider (preferable local)')
+		tekEvent.addToTasks new Task(title:'Identify potential venues', completed:false)
+		tekEvent.addToTasks new Task(title:'Get price/availability of venues', completed:false)
+		tekEvent.addToTasks new Task(title:'Compile potential sponsor list', completed:false)
+		tekEvent.addToTasks new Task(title:'Design promotional materials', completed:false)
+		tekEvent.addToTasks new Task(title:'Compile potential advertising avenues', completed:false)
+		tekEvent.addToTasks new Task(title:'Locate swag provider (preferable local)', completed:false)
 		tekEvent.save()
     }
 }

@@ -18,11 +18,7 @@
 		<div class="body">
 			<h1>${event?.name} - Forum Messages</h1>
 			<div id="messageList">
-				<g:each in="${messageInstanceList}" var="messageInstance">
-					<g:remoteLink action="showDetail" id="${messageInstance?.id}" update="details">
-						${messageInstance.author.fullName} - ${messageInstance.subject} <p/>
-					</g:remoteLink>
-				</g:each>
+				<g:messageThread messages="${messageInstanceList}"/>
 			</div>
 
 			<h3>Message Detail</h3>

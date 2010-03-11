@@ -12,5 +12,10 @@
 		<h3>Result</h3>
 		<div id="testoutput">
 		</div>
+		
+		<div id="sample">
+			<g:backwards>Hello</g:backwards>	
+		</div>
+		
 	</body>
 </html>
